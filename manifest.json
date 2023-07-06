@@ -1,0 +1,26 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "エンティティに体力を表示させるアドオンです。このアドオンを使用する際は§2§lベータAPI§rを有効にしてください。",
+		"name": "§2§lHP表示アドオン",
+		"uuid": "9def25f5-d39c-4f98-86e4-67bfc302e63c",
+		"version": [ 0, 0, 1 ],
+		"min_engine_version": [ 1, 20, 0 ]
+	},
+	"modules": [
+		{
+			"description": "NO DESCRIPTION",
+			"type": "script",
+			"language": "javascript",
+			"uuid": "f70b4ccf-f360-438a-bda0-8d07feede80d",
+			"version": [ 0, 0, 1 ],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.3.0-beta"
+		}
+	]
+}
